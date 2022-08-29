@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_049c724a80bd8dc05edcaa2c21efdfae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_049c724a80bd8dc05edcaa2c21efdfae" ></div>
+        
+</body>
+<script>    
+    
+            var map_049c724a80bd8dc05edcaa2c21efdfae = L.map(
+                "map_049c724a80bd8dc05edcaa2c21efdfae",
+                {
+                    center: [42.03809100298122, -93.61205003858174],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e475e9cdd5f255a8e1d4e27cb2e42cc8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_049c724a80bd8dc05edcaa2c21efdfae);
+        
+    
+            var feature_group_dba7e3b3293e64e66e20affad1b12a52 = L.featureGroup(
+                {}
+            ).addTo(map_049c724a80bd8dc05edcaa2c21efdfae);
+        
+    
+            var marker_6dd44aa4c5a5dace708271e767aa45c8 = L.marker(
+                [42.08578600179675, -93.58617996498299],
+                {}
+            ).addTo(feature_group_dba7e3b3293e64e66e20affad1b12a52);
+        
+    
+            var icon_69e8ad6709ef706ffbbbae415323da92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6dd44aa4c5a5dace708271e767aa45c8.setIcon(icon_69e8ad6709ef706ffbbbae415323da92);
+        
+    
+        var popup_505a573d69a02814a657e2570fda5cfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c83e624de2eab4e9cc338da2c40d926c = $(`<div id="html_c83e624de2eab4e9cc338da2c40d926c" style="width: 100.0%; height: 100.0%;">2088 QUAIL RIDGE RD,AMES</div>`)[0];
+            popup_505a573d69a02814a657e2570fda5cfa.setContent(html_c83e624de2eab4e9cc338da2c40d926c);
+        
+
+        marker_6dd44aa4c5a5dace708271e767aa45c8.bindPopup(popup_505a573d69a02814a657e2570fda5cfa)
+        ;
+
+        
+    
+    
+            var marker_006922f0c3b919df15ba45448e67360c = L.marker(
+                [42.02469198593158, -93.66417298729726],
+                {}
+            ).addTo(feature_group_dba7e3b3293e64e66e20affad1b12a52);
+        
+    
+            var icon_b3f24be2c246323fd0de05bebbe31bcf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_006922f0c3b919df15ba45448e67360c.setIcon(icon_b3f24be2c246323fd0de05bebbe31bcf);
+        
+    
+        var popup_88d7807b6cff7144babd63dac91c9cbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58b5615e862b1960c66efde0efb0e18b = $(`<div id="html_58b5615e862b1960c66efde0efb0e18b" style="width: 100.0%; height: 100.0%;">3416 WEST ST,AMES</div>`)[0];
+            popup_88d7807b6cff7144babd63dac91c9cbe.setContent(html_58b5615e862b1960c66efde0efb0e18b);
+        
+
+        marker_006922f0c3b919df15ba45448e67360c.bindPopup(popup_88d7807b6cff7144babd63dac91c9cbe)
+        ;
+
+        
+    
+    
+            var marker_b7d3daf12556ef77962b16b3a7d682ec = L.marker(
+                [42.02469198593158, -93.66417298729726],
+                {}
+            ).addTo(feature_group_dba7e3b3293e64e66e20affad1b12a52);
+        
+    
+            var icon_aeabf39e6ef17a50e04ce89c8878adbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b7d3daf12556ef77962b16b3a7d682ec.setIcon(icon_aeabf39e6ef17a50e04ce89c8878adbd);
+        
+    
+        var popup_9d9e71f5d499a8938badf68485c1f456 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be27d813718b83ab8e8653891ea34e7d = $(`<div id="html_be27d813718b83ab8e8653891ea34e7d" style="width: 100.0%; height: 100.0%;">3416 WEST ST,AMES</div>`)[0];
+            popup_9d9e71f5d499a8938badf68485c1f456.setContent(html_be27d813718b83ab8e8653891ea34e7d);
+        
+
+        marker_b7d3daf12556ef77962b16b3a7d682ec.bindPopup(popup_9d9e71f5d499a8938badf68485c1f456)
+        ;
+
+        
+    
+    
+            var marker_5ccd8dde537b0f6b139d64f41df5f03c = L.marker(
+                [42.02142501344039, -93.6149009753088],
+                {}
+            ).addTo(feature_group_dba7e3b3293e64e66e20affad1b12a52);
+        
+    
+            var icon_e420b0a1508c0bc10c1ade40dc06b330 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5ccd8dde537b0f6b139d64f41df5f03c.setIcon(icon_e420b0a1508c0bc10c1ade40dc06b330);
+        
+    
+        var popup_f93901107f0f90787ce985b79c68776e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a7748eb810d8605a1dec818edbaf48d = $(`<div id="html_4a7748eb810d8605a1dec818edbaf48d" style="width: 100.0%; height: 100.0%;">320 S 2ND ST,AMES</div>`)[0];
+            popup_f93901107f0f90787ce985b79c68776e.setContent(html_4a7748eb810d8605a1dec818edbaf48d);
+        
+
+        marker_5ccd8dde537b0f6b139d64f41df5f03c.bindPopup(popup_f93901107f0f90787ce985b79c68776e)
+        ;
+
+        
+    
+    
+            var marker_a16155b3eee8703d63747edf70b72397 = L.marker(
+                [42.03809100298122, -93.61205003858174],
+                {}
+            ).addTo(feature_group_dba7e3b3293e64e66e20affad1b12a52);
+        
+    
+            var icon_f22168269e8ea50a2d329ea680f1ff7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a16155b3eee8703d63747edf70b72397.setIcon(icon_f22168269e8ea50a2d329ea680f1ff7b);
+        
+    
+        var popup_5c1a1a1f2c6ff37603020b8f4e7ca69d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b648b5ba76873578ae3db2a3eb53e829 = $(`<div id="html_b648b5ba76873578ae3db2a3eb53e829" style="width: 100.0%; height: 100.0%;">1524 DOUGLAS AVE,AMES</div>`)[0];
+            popup_5c1a1a1f2c6ff37603020b8f4e7ca69d.setContent(html_b648b5ba76873578ae3db2a3eb53e829);
+        
+
+        marker_a16155b3eee8703d63747edf70b72397.bindPopup(popup_5c1a1a1f2c6ff37603020b8f4e7ca69d)
+        ;
+
+        
+    
+</script>
